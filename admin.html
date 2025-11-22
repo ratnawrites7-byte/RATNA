@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+
+<h2>Ratna Admin Dashboard</h2>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "REPLACE_APIKEY",
+    authDomain: "REPLACE_AUTHDOMAIN",
+    projectId: "REPLACE_PROJECTID",
+    storageBucket: "REPLACE_STORAGEBUCKET",
+    messagingSenderId: "REPLACE_MSGID",
+    appId: "REPLACE_APPID"
+  };
+
+  const app = firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+
+</body>
+</html>
